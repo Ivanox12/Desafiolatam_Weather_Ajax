@@ -1,0 +1,18 @@
+.tabla{
+
+	 width: 50%;
+	 left: 25%;
+}
+
+.intro-section{
+
+	 background-image: url("../img/clouds.jpg");
+	 background-repeat: no-repeat;
+	 padding-top: 2%;
+	 margin-bottom: 5%;
+}
+
+.navbar-nopadding{
+	    margin-bottom: 0px;
+
+}
