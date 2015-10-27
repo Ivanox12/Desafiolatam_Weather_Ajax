@@ -14,8 +14,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		
 		<link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
+	 
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-nopadding">
@@ -28,13 +29,13 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Desafio Ajax</a>
+		      <a class="navbar-brand" href="index.html">Desafio Ajax</a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li><a href="#">Horarios</a></li>
+		        <li><a href="horario.html">Horarios</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -56,8 +57,6 @@
 					</div>
 
 				</div>
-
-		
 	<div class="table-responsive">
 		<table class= " col-md-4 tabla table">
 			<tr>
@@ -66,32 +65,34 @@
 			</tr>
 			<tr>
 				<td>Estado:</td>
-				<td><p id="estado"></p></td>
+				<td><span id="estado"></span></td>
 			</tr>
 			<tr>
 				<td>Temperatura:</td>
-				<td><p id="temperatura"></p></td>
+				<td><span id="temperatura"></span> ºC</td>
 			</tr>	
 			<tr>
 				<td>Presion:</td>
-				<td><p id="presion"></p></td>
+				<td><span id="presion"></span> Pa</td>
 			</tr>	
 			<tr>
 				<td>Humedad:</td>
-				<td><p id="humedad"></p></td>
+				<td><span id="humedad"></span> </td>
 			</tr>
 			<tr>
 				<td>Velocidad del viento</td>
-				<td><p id="viento"></p></td>
+				<td><span id="viento"></span> km/h</td>
 			</tr>	
 		</table>
 	</div>
-
-
+		
+	
 		
 
     <script src="js/jquery-1.11.3.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     <script src="js/javascript.js"></script>
+    
 </body>
 </html>
 

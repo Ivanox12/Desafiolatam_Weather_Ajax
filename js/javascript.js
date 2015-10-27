@@ -5,9 +5,11 @@ $.ajax({
     $("#estado").html(data.weather[0].description);
     $("#temperatura").html(data.main.temp);
     $("#presion").html(data.main.pressure);
-    $("#humedad").html(data.main.humidity);
+    $("#humedad").html(data.main.humidity + " HUM");
     $("#viento").html(data.wind.speed);
+
   }
 });
+
 
 
